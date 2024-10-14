@@ -48,9 +48,9 @@ function App() {
         <a
           onClick={() => {
             showAlert();
-            }}
+          }}
         >
-          Increment by 5
+            Show Alert
         </a>
         <br/>
 
