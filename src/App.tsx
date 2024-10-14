@@ -3,6 +3,9 @@ import { TonConnectButton } from "@tonconnect/ui-react";
 import { useMainContract } from "./hooks/useMainContract";
 import { useTonConnect } from "./hooks/useTonConnect";
 import { fromNano } from "ton-core";
+import WebApp from "@twa-dev/sdk";
+
+WebApp.showAlert("Hey there!");
 
 function App() {
   const {
